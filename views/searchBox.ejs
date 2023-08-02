@@ -1,0 +1,99 @@
+<div class="pac-card" id="pac-card">
+    <%- include("logInBlock") %>
+    <div id="pac-container">
+        <input id="pac-input" type="text" placeholder="Search here" />
+        <button id="search-button">Search</button>
+
+        <div id="filter-container" class="pac-controls" style="display: none">
+          <div class="filter-card">
+            <h4>Cuisine Type</h4>
+            <div class="options">
+              <input id="chinese" class="type" type="checkbox">
+              <label for="chinese">Chinese</label>
+      
+              <input id="taiwanese" class="type" type="checkbox">
+              <label for="taiwanese">Taiwanese</label>
+      
+              <input id="vietnamese" class="type" type="checkbox">
+              <label for="vietnamese">Vietnamese</label>
+      
+              <input id="western" class="type" type="checkbox">
+              <label for="western">Western</label>
+      
+              <input id="thai" class="type" type="checkbox">
+              <label for="thai">Thai</label>
+      
+              <input id="japanese" class="type" type="checkbox">
+              <label for="japanese">Japanese</label>
+            </div>
+          </div>
+          <hr>
+    
+          <div class="filter-card">
+            <h4>Price Range</h4>
+              <div class="options">
+              <input id="$" class="price-range" type="checkbox">
+              <label for="$">$</label>
+      
+              <input id="$$" class="price-range" type="checkbox">
+              <label for="$$">$$</label>
+      
+              <input id="$$$" class="price-range" type="checkbox">
+              <label for="$$$">$$$</label>
+      
+              <input id="$$$$" class="price-range" type="checkbox">
+              <label for="$$$$">$$$$</label>
+      
+              <input id="$$$$$" class="price-range" type="checkbox">
+              <label for="$$$$$">$$$$$</label>
+            </div>
+          </div>
+          <hr>
+    
+          <div class="filter-card">
+            <h4>Dietary Restrictions</h4>
+            <div class="options">
+              <input id="gluten-free" class="type" type="checkbox">
+              <label for="gluten-free">Gluten-free</label>
+      
+              <input id="vegetarian" class="type" type="checkbox">
+              <label for="vegetarian">Vegetarian</label>
+      
+              <input id="vegan" class="type" type="checkbox">
+              <label for="vegan">Vegan</label>
+            </div>
+          </div>
+          <hr>
+    
+          <div class="filter-card">
+            <h4>Distance away</h4>
+            <div class="options">
+              <input id="1000" class="distance-away" type="radio" name="distance-away">
+              <label for="1000">1km</label>
+      
+              <input id="3000" class="distance-away" type="radio" name="distance-away">
+              <label for="3000">3km</label>
+      
+              <input id="5000" class="distance-away" type="radio" name="distance-away">
+              <label for="5000">5km</label>
+      
+              <input id="10000" class="distance-away" type="radio" name="distance-away">
+              <label for="10000">10km</label>
+      
+              <input id="50000" class="distance-away" type="radio" name="distance-away">
+              <label for="50000">>10km</label>
+            </div>
+          </div>
+        </div>
+        <div id="dropdown">
+          <button id="dropdown-button">▼</button>
+          <span id="dropdown-text">Click for filters</span>
+        </div>
+    </div>
+    <div class="tabs">
+      <button id="saved-button">Saved</button>
+      <button id="event-trend-button">Event Trends</button>
+      <button id="food-trend-button">Food Trends</button>
+      <button id="recommendations-button">Recommendations</button>
+    </div>
+  </div>

@@ -1,0 +1,26 @@
+<div class="title-bar">
+    <% if (locals.user) { %> 
+        <h3 class="title-bar"> Welcome <%= locals.user.name -%>! </h3>
+        <div class="title-bar to-flex">
+            <form class="form login-form logout">
+                <button type = "submit"> 
+                    LOGOUT
+                </button>
+            </form>
+        </div>
+    <% } else { %>
+        <div class="title-bar to-flex login signup">
+            <form class="login-form" action="/login" method="GET">
+                <button > 
+                    LOGIN
+                </button>
+            </form>
+    
+            <form class="login-form" action="/signup" method="GET">
+                <button > 
+                    SIGN UP
+                </button>
+            </form>
+        </div>
+    <% } %>
+</div>

@@ -1,0 +1,34 @@
+[
+    {
+        "foodName": "Veganism",
+        "description": "Veganism is a lifestyle and dietary choice that seeks to exclude the use of animal products in all aspects of life. It goes beyond just avoiding meat and fish, extending to abstaining from consuming or using any animal-derived products, such as dairy, eggs, honey, and gelatin.",
+        "history": "The primary motivation behind veganism is often driven by ethical, environmental, and health concerns. Ethically, vegans believe in the inherent value and rights of animals, considering their use for human purposes as exploitation. They aim to minimize animal suffering and promote compassion towards all living beings.",
+        "benefits": "Improved Health, Environmental Sustainability, Animal Welfare",
+        "disbenefits": "Nutritional Deficiencies, Increased Meal Planning and Preparation, Social and Practical Challenges",
+        "keyword": "vegan"
+    },
+    {
+        "foodName": "Sustainable Sourcing",
+        "description": "Sustainable sourcing is the practice of acquiring goods and services in a manner that minimizes negative environmental, social, and economic impacts while promoting positive contributions. This involves obtaining ingredients, products, and packaging in a way that supports long-term ecological balance, ethical labor practices, and economic viability.",
+        "history": "Sustainable sourcing became popular due to increased environmental awareness, demand for transparency and ethical practices, health and wellness trends, and the influence of social and digital media.",
+        "benefits": "Environmental Conservation, Improved Social and Labor Standards, Improved Food Quality and Safety, Consumer Trust and Reputation",
+        "disbenefits": "Higher Costs, Limited Availability and Scalability, More Complex Supply Chain",
+        "keyword": "sustainable"
+    },
+    {
+        "foodName": "Functional Foods",
+        "description": "Functional foods are food products that are fortified, enriched, or modified to provide additional health benefits beyond basic nutrition. These foods are designed to promote optimal health and well-being, and they often contain bioactive compounds or ingredients that are believed to have specific physiological benefits.",
+        "history": "Increasing health consciousness, Scientific research and evidence, and an ageing population caused functional foods to rise in popularity",
+        "benefits": "Nutritional Support, Disease Prevention, Improved Digestive Health, Weight Management",
+        "disbenefits": "Higher Production Costs, Lack of Availability/Accessibility, Overreliance, Processing and Additives",
+        "keyword": "functional food"
+    },
+    {
+        "foodName": "Flexitarian Diet",
+        "description": "A flexitarian diet is a semi-vegetarian or flexible vegetarian diet, is a dietary approach that primarily focuses on plant-based foods but allows for occasional consumption of meat and other animal products. The term is a combination of flexible and vegetarian.",
+        "history": "Flexitarian diets became popular due to increased health consciousness, sustainability and environmental concerns, and Cultural and Social influences",
+        "benefits": "Reduced Risk of Chronic Diseases, Weight Management, Improved Digestion and Gut Health, Environmental Sustainability",
+        "disbenefits": "Nutrient Deficiencies, Social Challenges, Potentially higher food costs, Adherence",
+        "keyword": "flexitarian"
+    }
+]
